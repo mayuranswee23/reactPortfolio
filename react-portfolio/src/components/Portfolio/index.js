@@ -13,6 +13,7 @@ function Portfolio(){
             <div className="flex-row">
           <img
             src={photo}
+            style={{ width: "50%"}}
             alt="Example"
             className="img-thumbnail mx-1"
           />

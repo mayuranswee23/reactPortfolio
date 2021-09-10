@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import About from './components/About';
 import Navigation from './components/Navigation';
 import Portfolio from './components/Portfolio';
+import Contact from './components/Contact';
 import './App.css';
 
 
@@ -27,6 +28,7 @@ function App() {
       <main>
         <Portfolio></Portfolio>
         <About></About>
+        <Contact></Contact>
       </main>
     </div>
   );
