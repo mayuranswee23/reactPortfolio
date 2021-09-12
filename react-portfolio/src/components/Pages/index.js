@@ -6,19 +6,19 @@ import About from '../About';
 
 function Page({currentPage}) {
 
-    const [page] = useState([
-        { name: 'Contact'},
-        { name: 'About' },
-        { name: 'Portfolio'},
-        { name: 'Resume' },
-      ]);
+    // const [page] = useState([
+    //     { name: 'Contact'},
+    //     { name: 'About' },
+    //     { name: 'Portfolio'},
+    //     { name: 'Resume' },
+    //   ]);
 
     const renderPage = () => {
 
-        switch(page.name){
+        switch(currentPage.name){
             // case 'About':
             //     return <About />;
-            case'Contact':
+            case 'Contact':
                 return <Contact />;
             case 'Portfolio':
                 return <Portfolio />;

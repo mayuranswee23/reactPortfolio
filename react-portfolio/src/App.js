@@ -22,7 +22,7 @@ function App() {
 
   
 
-  const [currentPage, setCurrentPage] = useState(page[0]);
+  const [currentPage, setCurrentPage] = useState(page[1]);
 
 
   return (
@@ -34,9 +34,9 @@ function App() {
       currentPage={currentPage}
       ></Navigation>
       <main>
-        <Page>
+        <Page
           currentPage={currentPage}
-        </Page>
+      />
       </main>
       <Footer></Footer>
     </div>
