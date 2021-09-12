@@ -8,9 +8,9 @@ function Footer (){
         <footer>
             <br />
             <div className="icons">
-                <a href="www.google.com" target="blank"><img className="project-img" src={Github} alt=""/></a>
-                <a href="www.google.com" target="blank"><img className="project-img" src={Linkedin} alt=""/></a>
-                <a href="www.google.com" target="blank"><img className="project-img" src={Twitter} alt=""/></a>
+                <a href="https://github.com/mayuranswee23" target="blank"><img className="project-img" src={Github} alt=""/></a>
+                <a href="https://ca.linkedin.com/" target="blank"><img className="project-img" src={Linkedin} alt=""/></a>
+                <a href="https://twitter.com/Twitter?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="blank"><img className="project-img" src={Twitter} alt=""/></a>
             </div>
         </footer>
     )
