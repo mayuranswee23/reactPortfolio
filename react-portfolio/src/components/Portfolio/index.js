@@ -3,7 +3,7 @@ import photo from "../../imgs/photo.jpg.jpg"
 
 function Portfolio(){
     const currentCategory = {
-        name: "about",
+        name: "portfolio",
         description: "about moi"
     };
     return(
