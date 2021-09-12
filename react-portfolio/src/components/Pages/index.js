@@ -2,22 +2,15 @@ import React from 'react';
 import Contact from '../Contact';
 import Portfolio from '../Portfolio';
 import About from '../About';
-// import Resume from '../Resume'
+import Resume from '../Resume'
 
 function Page({currentPage}) {
-
-    // const [page] = useState([
-    //     { name: 'Contact'},
-    //     { name: 'About' },
-    //     { name: 'Portfolio'},
-    //     { name: 'Resume' },
-    //   ]);
 
     const renderPage = () => {
 
         switch(currentPage.name){
-            // case 'About':
-            //     return <About />;
+            case 'Resume':
+                return <Resume />;
             case 'Contact':
                 return <Contact />;
             case 'Portfolio':
