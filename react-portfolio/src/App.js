@@ -1,70 +1,47 @@
 import React, {useState} from 'react';
-import About from './components/About';
+// import About from './components/About';
 import Navigation from './components/Navigation';
-import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
+// import Portfolio from './components/Portfolio';
+// import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Header from './components/Header';
+import Page from './components/Pages'
 // import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import './App.css';
 
 
 function App() {
-  const [categories] = useState([
-    // {
-    //   name: 'Contact'
-    // },
-    // { name: 'About' },
+  
+  const [page] = useState([
+    { name: 'Contact'},
+    { name: 'About' },
     { name: 'Portfolio'},
     { name: 'Resume' },
   ]);
 
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
+  
 
-  const [contactSelected, setContactSelected] = useState(false);
+  const [currentPage, setCurrentPage] = useState(page[0]);
+
 
   return (
     <div>
       <Header></Header>
       <Navigation 
-      categories={categories}
-      setCurrentCategory={setCurrentCategory}
-      currentCategory={currentCategory}
-      contactSelected={contactSelected}
-      setContactSelected={setContactSelected}
+      page={page}
+      setCurrentPage={setCurrentPage}
+      currentPage={currentPage}
       ></Navigation>
       <main>
-      {/* <Portfolio currentCategory={currentCategory}></Portfolio> */}
-      {!contactSelected ? (
-  <>
-    
-    <About></About>
-  </>
-  
-) : (
-    <Contact></Contact>
-  )}
-  
+        <Page>
+          currentPage={currentPage}
+        </Page>
       </main>
       <Footer></Footer>
     </div>
     
   );
-
-// return (
-//   <Router>
-//   <>
-//     <Navigation/>
-//     <Switch>
-//       <Route exact path="/" component={About} />
-//       <Route exact path="/portfolio" component={Portfolio} />
-//       <Route exact path="/contact" component={Contact} />
-//       <Route render={() => <h1 className="display-2">Wrong page!</h1>} />
-//     </Switch>
-//   </>
-// </Router>
-// )
 }
 
 export default App;
