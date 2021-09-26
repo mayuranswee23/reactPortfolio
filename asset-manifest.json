@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/reactPortfolio/static/css/main.7912b97f.chunk.css",
-    "main.js": "/reactPortfolio/static/js/main.5fa20c7e.chunk.js",
-    "main.js.map": "/reactPortfolio/static/js/main.5fa20c7e.chunk.js.map",
+    "main.js": "/reactPortfolio/static/js/main.4833b08b.chunk.js",
+    "main.js.map": "/reactPortfolio/static/js/main.4833b08b.chunk.js.map",
     "runtime-main.js": "/reactPortfolio/static/js/runtime-main.0de569e7.js",
     "runtime-main.js.map": "/reactPortfolio/static/js/runtime-main.0de569e7.js.map",
     "static/js/2.f3026487.chunk.js": "/reactPortfolio/static/js/2.f3026487.chunk.js",
@@ -18,6 +18,7 @@
     "static/media/crunchtime.c935e1ff.JPG": "/reactPortfolio/static/media/crunchtime.c935e1ff.JPG",
     "static/media/notetaker.2fdbfeb3.JPG": "/reactPortfolio/static/media/notetaker.2fdbfeb3.JPG",
     "static/media/survey.f8b7a1a9.JPG": "/reactPortfolio/static/media/survey.f8b7a1a9.JPG",
+    "static/media/vinyl.c5055af5.JPG": "/reactPortfolio/static/media/vinyl.c5055af5.JPG",
     "static/media/weather.39cbbc43.JPG": "/reactPortfolio/static/media/weather.39cbbc43.JPG",
     "static/media/workday.48e336d2.JPG": "/reactPortfolio/static/media/workday.48e336d2.JPG"
   },
@@ -25,6 +26,6 @@
     "static/js/runtime-main.0de569e7.js",
     "static/js/2.f3026487.chunk.js",
     "static/css/main.7912b97f.chunk.css",
-    "static/js/main.5fa20c7e.chunk.js"
+    "static/js/main.4833b08b.chunk.js"
   ]
 }
