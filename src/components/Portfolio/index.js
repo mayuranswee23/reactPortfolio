@@ -6,6 +6,7 @@ import Budget from '../../imgs/budgettracker.JPG';
 import Note from '../../imgs/notetaker.JPG';
 import Weather from '../../imgs/weather.JPG';
 import Work from '../../imgs/workday.JPG';
+import Vinyl from '../../imgs/vinyl.JPG'
 
 
 function Portfolio(){
@@ -17,6 +18,16 @@ function Portfolio(){
         <section>
             <h1>{currentCategory.name}</h1>
             <p>{currentCategory.description}</p>
+            <div className="flex-row">
+      <a href="https://vintage-vinyls.herokuapp.com/" target="blank">
+          <img
+            src={Vinyl}
+            style={{ width: "35%"}}
+            alt=""
+            className="img-thumbnail mx-1"
+          />
+            </a>
+      </div>
             <div className="flex-row">
             <a href="https://safe-earth-34464.herokuapp.com/" target="blank">
           <img
@@ -51,16 +62,6 @@ function Portfolio(){
       <a href="https://tranquil-mesa-42862.herokuapp.com/notes" target="blank">
           <img
             src={Note}
-            style={{ width: "35%"}}
-            alt=""
-            className="img-thumbnail mx-1"
-          />
-            </a>
-      </div>
-      <div className="flex-row">
-      <a href="https://mayuranswee23.github.io/WeatherApp/" target="blank">
-          <img
-            src={Weather}
             style={{ width: "35%"}}
             alt=""
             className="img-thumbnail mx-1"
